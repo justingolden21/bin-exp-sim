@@ -1,0 +1,15 @@
+important:
+
+	input verification
+
+	add graphs
+
+	add link to binomial calc with entered p and n, and x from the result (ie. what are the odds of this happening?)
+
+not important:
+
+	make prettier (css)
+
+	show more stuff like max number in a row of each, show graph with each trial in order, going up and down from 0 and 1
+
+	link option

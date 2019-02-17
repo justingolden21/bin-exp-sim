@@ -1,0 +1,10 @@
+::-moz-selection {
+	background: hsl(0, 0%, 90%) !important;
+}
+::selection {
+	background: hsl(0, 0%, 90%) !important;
+}
+
+@media (max-width: 768px) {
+
+}

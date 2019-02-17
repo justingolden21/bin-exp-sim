@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Binomial Experiment Simulator</title>
+
+<meta charset="utf-8">
+<meta name="title=" content="Binomial Experiment Simulator">
+<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A binomial experiment simulator with graphs">
+<meta name="keywords" content="binomial, experiment, binomial experiment, simulator, experiment simulator, binomial experiment simulator">
+<meta name="theme-color" content="hsl(0, 0%, 90%)">
+<meta name="msapplication-navbutton-color" content="hsl(0, 0%, 90%)">
+<meta name="apple-mobile-web-app-status-bar-style" content="hsl(0, 0%, 90%)">
+<link rel="shortcut icon" href="icon.png">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="styles.css">
+<script src="scripts.js"></script>
+
+</head>
+
+<body>
+<div class="text-center container">
+	<br>
+	<h3>Binomial Experiment Simulator</h3>
+	<label for="pInput">probability of event (p):</label>
+	<input autofocus="true" id="pInput" type="number" class="form-control form-control-lg" value="0.5">
+	<label for="nInput">number of simulations (n):</label>
+	<input id="nInput" type="number" class="form-control form-control-lg" value="100">
+	<button id="simulateButton" class="btn btn-default btn-lg">Simulate</button>
+	<p id="outputPara"></p>
+	<textarea id="outputTextarea" class="form-control" rows="10"></textarea>
+</div>
+
+</body>
+</html>
