@@ -9,7 +9,7 @@ $(function() {
 		let boolArr = [];
 		for(let i=0; i<n; i++) {
 			let sample = Math.random();
-			if(sample >= p) { //failure
+			if(sample < p) { //failure
 				numFailure++;
 				boolArr.push('F');
 			} else { //success
